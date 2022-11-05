@@ -16,7 +16,12 @@ it("the shifting content have five element in the menu 1 (2)", () => {
 cy.get(':nth-child(7) > :nth-child(3) > a',{ includeShadowDom: true })
 cy.get(':nth-child(7) > :nth-child(4) > a',{ includeShadowDom: true })
 cy.get('.shift',{ includeShadowDom: true })
-cy.get(':nth-child(7) > ',{ includeShadowDom: true }).should('have.length', 5)})
+cy.get(':nth-child(7) > ',{ includeShadowDom: true }).should('have.length', 6)})
+it("the shifting content have five element in the menu 1 (3)", () => {
+     cy.get("li").should("have.length",5)})
+
+
+
 
 
 
