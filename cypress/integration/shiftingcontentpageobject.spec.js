@@ -13,7 +13,7 @@ beforeEach(() => {
     
         it("the shifting content have five element in the menu 1",() =>{
 
-        mainpage.clickexample1()
+        shiftingcontent.clickexample1()
         shiftingcontent.filllength()
     })
 })
